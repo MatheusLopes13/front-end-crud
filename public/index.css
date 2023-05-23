@@ -1,8 +1,31 @@
-.container {
-    width: 70%;
-    
+h1 {
+  text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+    
+.botaoAdicionar {
+  width: 10rem;
+  height: 2.5rem;
+}
+
  th, td {
     border:1px solid black;
     padding: 0rem 1rem 0rem 1rem;
+    
+  }
+
+  .inputs {
+    width: 5rem;
+  }
+
+  .tablee {
+    width: 70%;
+  }
+
+  .mensagemEmpresa{
+    text-align: center;
   }
